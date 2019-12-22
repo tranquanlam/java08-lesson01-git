@@ -1,0 +1,6 @@
+private int mul(int a, int b) {
+if(a*b > Interger.MAX) {
+ thow new RuntimeExeption();
+}
+ return a * b; 
+}
