@@ -1,6 +1,6 @@
 private int mul(int a, int b) {
 if(a*b > Interger.MAX) {
- thow new RuntimeExeption();
+ thow new RuntimeExeption("Result is over in then max of interger");
 }
  return a * b; 
 }
