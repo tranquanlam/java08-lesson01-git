@@ -1,3 +1,6 @@
-private int sub(int x, int y) {
- return x-y; 
+private int sub(int x, int y) throws Exception {
+	if((a-b) > Interger.MIN)){
+		throw new Exception();
+	}
+ 	return x-y; 
 }
